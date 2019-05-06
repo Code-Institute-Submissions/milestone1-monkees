@@ -21,41 +21,52 @@
 }
 
 .ui-menu-color-music {
-    background-color: #758C33;
+    background-color: #2D758C;
     color: #fafafa;
 }
 
 .ui-menu-color-photos {
-    background-color: #D0B285;
+    background-color: #758C33;
     color: #fafafa;
 }
 
 .ui-menu-color-contact {
-    background-color: #2D758C;
+    background-color: #D0B285;
     color: #fafafa;
 }
 
 
 /* ----- General styles */
 
-/* ----- Headers */
-
 header {
     margin: 0;
+    background-color: #fafafa;
 }
 
+.menu {
+    font-family: "Spicy Rice", sans-serif;
+}
+
+
+/* ----- Headers */
+
 .logo {
-    min-height: 270px;
-    position: relative;
-    background: url("../images/logo.png");
+    background: url(/assets/images/logo.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
-    transition: all .5s ease-in-out;
-    -moz-transition: all .5s ease-in-out;
-    -webkit-transition: all .5s ease-in-out;
+    min-height: 360px;
+    margin: 0 2px 0 2px;
+    position: relative;
+    transition: all .5 ease-in-out;
+    -o-transition: all .5 ease-in-out;
+    -moz-transition: all .5 ease-in-out;
+    -webkit-transition: all .5 ease-in-out;
 }
 
+.list-inline {
+    margin: 0;
+    padding: 0;
 }
 
 .list-inline-item:not(:last-child) {
@@ -66,19 +77,20 @@ header {
     font-size: 0;
 }
 
-#nav li {
-    font-size: 30px;
-    padding: 0;
+#nav {
     margin: 0;
-    border-radius: 20px;
-    text-align: center;
+}
+
+#nav li {
+    font-size: 18px;
+    padding: 0;
 }
 
 .menuitem {
-    text-transform: uppercase;
-    height: 90px;
+    height: 120px;
     text-align: center;
     padding: 0;
+    border-radius: 360px;
 }
 
 .menuitem a {
@@ -88,17 +100,22 @@ header {
     height: 120px;
 }
 
+.menuitem a i {
+    padding-top: 22px;
+    display: block;
+    color: #fafafa;
+    font-size: 30px;
+}
+
 .menuitem span {
     display: block;
     width: 100%;
-    padding: 20px;
+    padding-top: 5px;
     text-align: center;
     text-transform: uppercase;
-    font-family: "Spicy Rice", sans-serif;
-    font-size: 30px;
+    font-size: 25px;
     letter-spacing: 2px;
 }
-
 
 /* ----- Hovers*/
 
