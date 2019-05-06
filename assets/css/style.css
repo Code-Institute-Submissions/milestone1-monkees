@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css?family=Londrina+Solid:100,300,400,900|Spicy+Rice');
+
+/* ----- colours */
+
+.bg-color {
+    background-color: #fafafa;
+}
+
+.bg-color-section {
+    background-color: #D0B285;
+}
+
+.ui-menu-color-home {
+    background-color: #CF4917;
+    color: #fafafa;
+}
+
+.ui-menu-color-about {
+    background-color: #F9AC3D;
+    color: #fafafa;
+}
+
+.ui-menu-color-music {
+    background-color: #758C33;
+    color: #fafafa;
+}
+
+.ui-menu-color-photos {
+    background-color: #D0B285;
+    color: #fafafa;
+}
+
+.ui-menu-color-contact {
+    background-color: #2D758C;
+    color: #fafafa;
+}
+
+
+/* ----- General styles */
+
+/* ----- Headers */
+
+header {
+    margin: 0;
+}
+
+.logo {
+    min-height: 270px;
+    position: relative;
+    background: url("../images/logo.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
+}
+
+}
+
+.list-inline-item:not(:last-child) {
+    margin: 0;
+}
+
+.menucontainer {
+    font-size: 0;
+}
+
+#nav li {
+    font-size: 30px;
+    padding: 0;
+    margin: 0;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.menuitem {
+    text-transform: uppercase;
+    height: 90px;
+    text-align: center;
+    padding: 0;
+}
+
+.menuitem a {
+    width: 100px;
+    text-decoration: none;
+    color: #fafafa;
+    height: 120px;
+}
+
+.menuitem span {
+    display: block;
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: "Spicy Rice", sans-serif;
+    font-size: 30px;
+    letter-spacing: 2px;
+}
+
+
+/* ----- Hovers*/
+
+/* ----- Footer */
+
+/* ----- Media Queries 
+
+1.will want the logo to be on the left of the page on screens bigger than mobile*/
