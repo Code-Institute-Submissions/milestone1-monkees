@@ -55,8 +55,8 @@ header {
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
-    min-height: 360px;
-    margin: 0 2px 0 2px;
+    min-height: 320px;
+    margin: 2px;
     position: relative;
     transition: all .5 ease-in-out;
     -o-transition: all .5 ease-in-out;
@@ -82,14 +82,21 @@ header {
 }
 
 #nav li {
-    font-size: 18px;
-    padding: 0;
+    font-size: 20px;
 }
+
 
 .menuitem {
     height: 120px;
     text-align: center;
     padding: 0;
+    border-radius: 360px;
+}
+
+.menuitem-home {
+    height: 80px;
+    padding-top: 5px;
+    text-align: center;
     border-radius: 360px;
 }
 
@@ -100,11 +107,25 @@ header {
     height: 120px;
 }
 
+.menuitem-home a {
+    width: 100px;
+    text-decoration: none;
+    color: #fafafa;
+    height: 80px;
+}
+
 .menuitem a i {
     padding-top: 22px;
     display: block;
     color: #fafafa;
     font-size: 30px;
+}
+
+.menuitem-home a i {
+    padding-top: 20px;
+    display: block;
+    color: #fafafa;
+    font-size: 28px;
 }
 
 .menuitem span {
@@ -114,6 +135,16 @@ header {
     text-align: center;
     text-transform: uppercase;
     font-size: 25px;
+    letter-spacing: 2px;
+}
+
+.menuitem-home span {
+    display: block;
+    width: 100%;
+    padding-top: 3px;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 23px;
     letter-spacing: 2px;
 }
 
@@ -142,5 +173,8 @@ header {
     .menuitem a i {
         padding-top: 18px;
         font-size: 20px;
+    }
+    .menuitem-home {
+        display: none;
     }
 }
