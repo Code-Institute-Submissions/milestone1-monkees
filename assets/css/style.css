@@ -124,3 +124,23 @@ header {
 /* ----- Media Queries 
 
 1.will want the logo to be on the left of the page on screens bigger than mobile*/
+
+@media(min-width:768px) {
+    .logo {
+        min-height: 100px;
+        margin: 0 auto;
+        max-width: 100%;
+    }
+    .menuitem {
+        height: 100px;
+        font-size: 20px;
+        margin: 0;
+    }
+    .menuitem a {
+        height: 100px;
+    }
+    .menuitem a i {
+        padding-top: 18px;
+        font-size: 20px;
+    }
+}
