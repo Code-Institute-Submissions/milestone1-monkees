@@ -188,6 +188,7 @@ footer {
 
 .general-sub.footer-heading {
     text-align: center;
+    display: block;
 }
 
 .general-sub.subscribe {
