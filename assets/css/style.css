@@ -16,7 +16,7 @@
 }
 
 .ui-menu-color-about {
-    background-color: #F9AC3D;
+    background-color: #D0B285;
     color: #fafafa;
 }
 
@@ -31,7 +31,7 @@
 }
 
 .ui-menu-color-contact {
-    background-color: #D0B285;
+    background-color: #F9AC3D;
     color: #fafafa;
 }
 
@@ -46,6 +46,29 @@ header {
 .menu {
     font-family: "Spicy Rice", sans-serif;
 }
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+    margin: 0;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+.general-sub {
+    font-family: "Spicy Rice", sans-serif;
+    color: #fafafa;
+}
+
+.inline-block {
+    display: inline-block;
+}
+
+
 
 
 /* ----- Headers */
@@ -151,6 +174,72 @@ header {
 /* ----- Hovers*/
 
 /* ----- Footer */
+
+footer {
+    background-color: #CF4917;
+    color: #fafafa;
+    min-height: 160px;
+    margin: 0;
+}
+
+.container-fluid {
+    padding: 0;
+}
+
+.general-sub.footer-heading {
+    text-align: center;
+}
+
+.general-sub.subscribe {
+    font-family: "Spicy Rice", sans-serif;
+    color: #fafafa;
+}
+
+.general-sub.subscribe:hover {
+    color: #F9AC3D;
+    text-decoration: none;
+}
+
+.block--divider {
+    width: 60px;
+    height: 7px;
+    position: relative;
+    display: block;
+    background-color: #fafafa;
+    border-radius: 30%;
+}
+
+.social-links {
+    padding-bottom: 15px;
+}
+
+.social-links li a i {
+    width: 40px;
+    height: 40px;
+    padding-top: 7px;
+    border-radius: 50%;
+    line-height: 27px;
+    font-size: 20px;
+    text-align: center;
+    color: #fafafa;
+    background-color: #D1744A;
+}
+
+.social-links li a i:hover {
+    background: #D0B285;
+}
+
+#footer-details {
+    padding: 20px;
+}
+
+.footer-text {
+    font-family: "Londrina+Solid", sans-serif;
+    font-weight: 300;
+    font-size: 15px;
+    text-align: center;
+    padding-top: 10px;
+}
 
 /* ----- Media Queries 
 
