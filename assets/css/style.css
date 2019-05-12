@@ -377,6 +377,12 @@ audio {
     -o-background-size: cover;
 }
 
+.btn--contact {
+    color: white;
+    background-color: #758C33;
+    border-color: #758C33
+}
+
 .contact-overlay {
     z-index: 9;
     position: absolute;
@@ -438,7 +444,7 @@ footer {
 }
 
 .general-sub.subscribe:hover {
-    color: #F9AC3D;
+    color: #758C33;
     text-decoration: none;
 }
 
