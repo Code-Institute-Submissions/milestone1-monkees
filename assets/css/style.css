@@ -72,9 +72,11 @@ h5 {
 .general-text {
     font-family: "Londrina Solid", sans-serif;
     font-weight: 300;
-    font-size: 16px;
-    text-align: center;
+    font-size: 18px;
+    text-align: justify;
     letter-spacing: 2px;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
 .inline-block {
@@ -84,7 +86,6 @@ h5 {
 .section-heading {
     font-family: "Londrina Solid", sans-serif;
     font-weight: 900;
-    font-size: 20px;
     letter-spacing: 2px;
 }
 
@@ -158,7 +159,7 @@ h5 {
 
 .carousel {
     width: 100%;
-    height: auto;
+    min-height: 500px;
     display: inline-block;
 }
 
@@ -178,10 +179,9 @@ h5 {
     text-align: center;
     margin-top: 5px;
     margin-bottom: 20px;
-    font-size: 30px;
 }
 
-.sub-heading-about { 
+.sub-heading-about {
     font-family: "Spicy Rice", sans-serif;
     font-size: 18px;
     color: #F9AC3D;
@@ -239,23 +239,27 @@ h5 {
     border-radius: 30%;
 }
 
+.contact-link {
+    text-decoration: none;
+    color: #758C33;
+}
+
 /* ----------------------------------------- Section - Music*/
 
 .music-container {
-    width: auto;
-    height: auto;
+    width: 100%;
+    min-height: 500px;
     background-color: #2D758C;
     margin: 5px 0;
-    padding: 0;
+    padding: 0 0 25px 0;
 }
 
 .section-heading-music {
     font-family: "Spicy Rice", sans-serif;
     color: #fafafa;
     text-align: center;
-    margin-top: 10px;
+    margin-top: 20px;
     margin-bottom: 20px;
-    font-size: 30px;
 }
 
 .block--divider--music {
@@ -295,6 +299,14 @@ audio {
     border-color: #ffffff;
 }
 
+.section-video {
+    font-family: "Spicy Rice", sans-serif;
+    color: #fafafa;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
 .btn {
     max-width: 150px;
     margin-left: auto;
@@ -310,6 +322,7 @@ audio {
     text-align: center;
     margin-left: auto;
     margin-right: auto;
+    margin-top: 20px;
 }
 
 /* ----------------------------------------- Contact us*/
@@ -320,7 +333,6 @@ audio {
     text-align: center;
     margin-top: 10px;
     margin-bottom: 20px;
-    font-size: 30px;
 }
 
 .block--divider--contact {
@@ -331,10 +343,9 @@ audio {
     background-color: #758C33;
     border-radius: 30%;
 }
-    
-.sub-heading-contact { 
+
+.sub-heading-contact {
     font-family: "Spicy Rice", sans-serif;
-    font-size: 20px;
     color: #758C33;
     text-align: center;
     margin-top: 10px;

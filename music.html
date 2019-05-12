@@ -19,20 +19,57 @@
 
 <body>
 
-    <div class="music-container">
+    <header>
+
+        <nav class="navbar navbar-expand-md navbar-light navbar-1 white">
+
+            <!-- Navbar brand -->
+            <a class="navbar col-md-4 col-sm-6 logo" href="index.html"></a>
+
+            <!-- Collapse button -->
+            <button class="navbar-toggler " type="button" data-toggle="collapse" data-target="#navbar-header" aria-controls="navbar-header" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+
+            <!-- Collapsible content -->
+            <div class="collapse navbar-collapse" id="navbar-header">
+
+                <!-- Links -->
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active ui-menu-color-home nav-item-menu-home">
+                        <i class="fa fa-home" aria-hidden="true"></i><a class="nav-link" href="index.html">Home <span class="sr-only">Home menu</span></a>
+                    </li>
+                    <li class="nav-item ui-menu-color-about nav-item-menu">
+                        <i class="fa fa-guitar" aria-hidden="true"></i><a class="nav-link" href="#aboutsection">About</a>
+                    </li>
+                    <li class="nav-item ui-menu-color-music nav-item-menu">
+                        <i class="fa fa-music" aria-hidden="true"></i><a class="nav-link" href="#musicsection">Music</a>
+                    </li>
+                    <li class="nav-item ui-menu-color-contact nav-item-menu">
+                        <i class="fa fa-comment" aria-hidden="true"></i><a class="nav-link" href="#contactsection">Contact</a>
+                    </li>
+                </ul>
+                <!-- Links -->
+
+            </div>
+            <!-- Collapsible content -->
+
+        </nav>
+        <!--/.Navbar-->
+    </header>
+
+    <div class="container-fluid music-container">
         <section class="music" id="musicsection">
             <div class="row">
                 <div class="col-12 page-header">
-                    <h2 class="section-heading-music uppercase">Music</h2>
+                    <h1 class="section-heading-music uppercase">Music</h1>
                     <hr class="block--divider--music">
                 </div>
             </div>
             <div class="row">
-                <div class="col col-md-4">
+                <div class="col-12 col-md-4">
                     <div class="music">
-                        <h3 class="section-heading-music uppercase">XXX</h3>
+                        <h3 class="section-heading-music uppercase">Daydream Believer</h3>
                         <img src="/assets/images/album.jpg" alt="Greatest Hits" class="rounded album-items">
-                        <audio controls class="audio-controls">
+                        <audio controls>
                                 <source src="/assets/audio/DaydreamBeliever.ogg" type="audio/ogg">
                                 <source src="/assets/audio/DaydreamBeliever.mp3" type="audio/mpeg">
                                 </audio>
@@ -43,9 +80,9 @@
 
                 <div class="col-12 col-md-4">
                     <div class="music">
-                        <h3 class="section-heading-music uppercase">XXX</h3>
+                        <h3 class="section-heading-music uppercase">I'm a Believer</h3>
                         <img src="/assets/images/album2.jpg" alt="The-Very-Best-of-the-Monkees" class="rounded album-items">
-                        <audio controls class="audio-controls">
+                        <audio controls>
                                 <source src="/assets/audio/ImABeliever.ogg" type="audio/ogg">
                                 <source src="/assets/audio/ImABeliever.mp3" type="audio/mpeg">
                                 </audio>
@@ -56,11 +93,50 @@
 
                 <div class="col-12 col-md-4">
                     <div class="music">
-                        <h3 class="section-heading-music uppercase">XXX</h3>
+                        <h3 class="section-heading-music uppercase">Last Train to Clarksville</h3>
                         <img src="/assets/images/cover.jpg" alt="Greatest Hits 2" class="rounded album-items">
-                        <audio controls class="audio-controls">
+                        <audio controls>
                                 <source src="/assets/audio/Clarksville.ogg" type="audio/ogg">
                                 <source src="/assets/audio/Clarksville.mp3" type="audio/mpeg">
+                                </audio>
+                        </img>
+                        <p class="general-text"></p>
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-4">
+                    <div class="music">
+                        <h3 class="section-heading-music uppercase">Pleasant Valley Sunday</h3>
+                        <img src="/assets/images/cover1.jpg" alt="Greatest Hits 2" class="rounded album-items">
+                        <audio controls>
+                                <source src="/assets/audio/SteppingStone.ogg" type="audio/ogg">
+                                <source src="/assets/audio/SteppingStone.mp3" type="audio/mpeg">
+                                </audio>
+                        </img>
+                        <p class="general-text"></p>
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-4">
+                    <div class="music">
+                        <h3 class="section-heading-music uppercase">Stepping Stone</h3>
+                        <img src="/assets/images/cover2.png" alt="Greatest Hits 2" class="rounded album-items">
+                        <audio controls>
+                                <source src="/assets/audio/SteppingStone.ogg" type="audio/ogg">
+                                <source src="/assets/audio/SteppingStone.mp3" type="audio/mpeg">
+                                </audio>
+                        </img>
+                        <p class="general-text"></p>
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-4">
+                    <div class="music">
+                        <h3 class="section-heading-music uppercase">I want to be free</h3>
+                        <img src="/assets/images/cover3.jpg" alt="Greatest Hits 2" class="rounded album-items">
+                        <audio controls>
+                                <source src="/assets/audio/Iwanttobefree.ogg" type="audio/ogg">
+                                <source src="/assets/audio/Iwanttobefree.mp3" type="audio/mpeg">
                                 </audio>
                         </img>
                         <p class="general-text"></p>
@@ -69,10 +145,12 @@
             </div>
 
 
-            <div class="row">
+            <div class="row section-video">
                 <div class="col-12">
                     <!-- video here-->
-                    <h3 class="section-heading-music uppercase">Watch</h3>
+                    <hr class="block--divider">
+                    <h1 class="section-heading-musicuppercase">Watch</h1>
+                    <hr class="block--divider">
                     <video controls class="album-items--video">
                         <source src="/assets/video/TheMonkees.mp4" type="video/mp4">
                         <source src="movie.ogg" type="video/ogg">
@@ -87,6 +165,30 @@
         </section>
     </div>
 
+
+    <footer class="container-fluid ">
+        <div id="footer-details" class="row">
+            <div class="col">
+                <h1>
+                    <a class="uppercase general-sub footer-heading subscribe" href="contact.html">Subscribe</a>
+                </h1>
+                <p class="footer-text">Join our mailing list to be one of the first to hear about our events, new merchandise and promotional offers!</p>
+                <hr class="block--divider">
+                <h1 class="uppercase general-sub footer-heading"> Follow us</h1>
+                <ul class="list-inline social-links footer-text">
+                    <li class="list-inline-item"><a target="_blank" href="#"><i class="fab fa-facebook-f border border-white" aria-hidden="true"></i><span class="sr-only"> Facebook</span></a></li>
+                    <li class="list-inline-item"><a target="_blank" href="#"><i class="fab fa-twitter border border-white" aria-hidden="true"></i><span class="sr-only"> Twitter</span></a></li>
+                    <li class="list-inline-item"><a target="_blank" href="#"><i class="fab fa-youtube border border-white" aria-hidden="true"></i><span class="sr-only"> Youtube</span></a></li>
+                </ul>
+
+
+            </div>
+
+        </div>
+
+
+
+    </footer>
 
 </body>
 
