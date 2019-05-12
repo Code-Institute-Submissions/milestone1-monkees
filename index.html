@@ -21,7 +21,7 @@
 
     <header>
 
-        <nav class="navbar navbar-expand-md navbar-1 navbar-bg-color">
+        <nav class="navbar navbar-expand-md navbar-light navbar-1 white">
 
             <!-- Navbar brand -->
             <a class="navbar col-md-4 col-sm-6 logo" href="index.html"></a>
@@ -34,7 +34,7 @@
 
                 <!-- Links -->
                 <ul class="navbar-nav mr-auto">
-                    <li class="nav-item active ui-menu-color-home nav-item-menu">
+                    <li class="nav-item active ui-menu-color-home nav-item-menu-home">
                         <i class="fa fa-home" aria-hidden="true"></i><a class="nav-link" href="index.html">Home <span class="sr-only">Home menu</span></a>
                     </li>
                     <li class="nav-item ui-menu-color-about nav-item-menu">
@@ -142,8 +142,8 @@
                     <div class="col-12 col-md-6">
                         <div class="about">
                             <h3 class="section-heading-about uppercase">Who we are</h3>
-                            <p class="general-text">We are an American rock and pop band. After joining together in the 60s and have had numerous albums and tours in the years that have followed. We were formed in 1965 in Los Angeles, California, first for the original TV show
-                                The Monkees.</p>
+                            <p class="general-text">We are an American rock and pop band. After joining together in the 60s, we have had numerous albums and tours in the years that have followed. We were formed in 1965 in Los Angeles, California, first for the original TV show,
+                                The Monkees. Our love for music evolved from this and we then created the band more formally performing outside television. </p>
                         </div>
                     </div>
                     <div class="col-12 col-md-6">
@@ -157,21 +157,25 @@
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-sm-6 col-md-12">
+                    <div class="col">
                         <div class="about">
                             <h3 class="section-heading-about uppercase">Members</h3>
-                            <p class="section-heading-about uppercase"> Micky Dolenz </p>
-                            <img src="/assets/images/md.jpg" alt="Micky Dolenz" class="rounded img-members"></img>
-
-                            <p class="section-heading-about uppercase"> Michael Nesmith </p>
-                            <img src="/assets/images/mn.jpg" alt="Michael Nesmith" class="rounded img-members"></img>
-
-                            <p class="section-heading-about uppercase"> Peter Tork </p>
-                            <img src="/assets/images/pt.jpg" alt="Peter Tork" class="rounded img-members"></img>
-
-                            <p class="section-heading-about uppercase"> Davy Jones</p>
-                            <img src="/assets/images/dj.jpg" alt="Davy Jones" class="rounded img-members"></img>
-
+                            <div class="col-md-3">
+                                <p class="section-heading-about uppercase"> Micky Dolenz </p>
+                                <img src="/assets/images/md.jpg" alt="Micky Dolenz" class="rounded img-members"></img>
+                            </div>
+                            <div class="col-md-3">
+                                <p class="section-heading-about uppercase"> Michael Nesmith </p>
+                                <img src="/assets/images/mn.jpg" alt="Michael Nesmith" class="rounded img-members"></img>
+                            </div>
+                            <div class="col-md-3">
+                                <p class="section-heading-about uppercase"> Peter Tork </p>
+                                <img src="/assets/images/pt.jpg" alt="Peter Tork" class="rounded img-members"></img>
+                            </div>
+                            <div class="col-md-3">
+                                <p class="section-heading-about uppercase"> Davy Jones</p>
+                                <img src="/assets/images/dj.jpg" alt="Davy Jones" class="rounded img-members"></img>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -188,31 +192,49 @@
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-12 col-md-6">
+                    <div class="col-12 col-md-4">
                         <div class="music">
                             <h3 class="section-heading-music uppercase">XXX</h3>
-                            <img src="/assets/images/album.jpg" alt="Greatest Hits" class="rounded"></img>
+                            <img src="/assets/images/album.jpg" alt="Greatest Hits" class="rounded album-items">
+                            <audio controls>
+                                <source src="/assets/audio/DaydreamBeliever.ogg" type="audio/ogg">
+                                <source src="/assets/audio/DaydreamBeliever.mp3" type="audio/mpeg">
+                                </audio>
+                            </img>
                             <p class="section-heading-about uppercase"></p>
                         </div>
                     </div>
 
-                    <div class="col-12 col-md-6">
+                    <div class="col-12 col-md-4">
                         <div class="music">
                             <h3 class="section-heading-music uppercase">XXX</h3>
-                            <img src="/assets/images/album2.jpg" alt="The-Very-Best-of-the-Monkees" class="rounded"></img>
+                            <img src="/assets/images/album2.jpg" alt="The-Very-Best-of-the-Monkees" class="rounded album-items">
+                            <audio controls>
+                                <source src="/assets/audio/ImABeliever.ogg" type="audio/ogg">
+                                <source src="/assets/audio/ImABeliever.mp3" type="audio/mpeg">
+                                </audio>
+                            </img>
                             <p class="general-text"></p>
                         </div>
                     </div>
 
-                    <div class="col-12 col-md-6">
+                    <div class="col-12 col-md-4">
                         <div class="music">
                             <h3 class="section-heading-music uppercase">XXX</h3>
-                            <img src="/assets/images/cover.jpg" alt="Greatest Hits 2" class="rounded"></img>
+                            <img src="/assets/images/cover.jpg" alt="Greatest Hits 2" class="rounded album-items">
+                            <audio controls>
+                                <source src="/assets/audio/Clarksville.ogg" type="audio/ogg">
+                                <source src="/assets/audio/Clarksville.mp3" type="audio/mpeg">
+                                </audio>
+                            </img>
                             <p class="general-text"></p>
                         </div>
                     </div>
+                </div>
+                <div>
                     <h3 class="uppercase"><a class="btn btn-sm btn--music" href="music.html">Load more</a></h3>
                 </div>
+
             </section>
         </div>
 

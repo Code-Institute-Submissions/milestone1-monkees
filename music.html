@@ -19,9 +19,8 @@
 
 <body>
 
-
     <div class="music-container">
-        <section class="music">
+        <section class="music" id="musicsection">
             <div class="row">
                 <div class="col-12 page-header">
                     <h2 class="section-heading-music uppercase">Music</h2>
@@ -29,37 +28,52 @@
                 </div>
             </div>
             <div class="row">
-
-                <div class="col-12 col-md-6">
+                <div class="col col-md-4">
                     <div class="music">
                         <h3 class="section-heading-music uppercase">XXX</h3>
-                        <img src="/assets/images/album.jpg" alt="Greatest Hits" class="rounded"></img>
+                        <img src="/assets/images/album.jpg" alt="Greatest Hits" class="rounded album-items">
+                        <audio controls class="audio-controls">
+                                <source src="/assets/audio/DaydreamBeliever.ogg" type="audio/ogg">
+                                <source src="/assets/audio/DaydreamBeliever.mp3" type="audio/mpeg">
+                                </audio>
+                        </img>
                         <p class="section-heading-about uppercase"></p>
                     </div>
                 </div>
 
-                <div class="col-12 col-md-6">
+                <div class="col-12 col-md-4">
                     <div class="music">
                         <h3 class="section-heading-music uppercase">XXX</h3>
-                        <img src="/assets/images/album2.jpg" alt="The-Very-Best-of-the-Monkees" class="rounded"></img>
+                        <img src="/assets/images/album2.jpg" alt="The-Very-Best-of-the-Monkees" class="rounded album-items">
+                        <audio controls class="audio-controls">
+                                <source src="/assets/audio/ImABeliever.ogg" type="audio/ogg">
+                                <source src="/assets/audio/ImABeliever.mp3" type="audio/mpeg">
+                                </audio>
+                        </img>
                         <p class="general-text"></p>
                     </div>
                 </div>
 
-                <div class="col-12 col-md-6">
+                <div class="col-12 col-md-4">
                     <div class="music">
                         <h3 class="section-heading-music uppercase">XXX</h3>
-                        <img src="/assets/images/cover.jpg" alt="Greatest Hits 2" class="rounded"></img>
+                        <img src="/assets/images/cover.jpg" alt="Greatest Hits 2" class="rounded album-items">
+                        <audio controls class="audio-controls">
+                                <source src="/assets/audio/Clarksville.ogg" type="audio/ogg">
+                                <source src="/assets/audio/Clarksville.mp3" type="audio/mpeg">
+                                </audio>
+                        </img>
                         <p class="general-text"></p>
                     </div>
                 </div>
             </div>
 
+
             <div class="row">
                 <div class="col-12">
                     <!-- video here-->
-
-                    <video width="320" height="240" controls>
+                    <h3 class="section-heading-music uppercase">Watch</h3>
+                    <video controls class="album-items--video">
                         <source src="/assets/video/TheMonkees.mp4" type="video/mp4">
                         <source src="movie.ogg" type="video/ogg">
                         </video>

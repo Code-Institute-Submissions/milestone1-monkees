@@ -8,6 +8,7 @@
 
 .navbar-bg-color {
     background-color: #ffffff;
+    color: #e46180;
 }
 
 .bg-color-section {
@@ -68,7 +69,9 @@ h5 {
 }
 
 .general-text {
-    font-family: "", sans-serif;
+    font-family: "Londrina+Solid", sans-serif;
+    font-weight: 300;
+    font-size: 11px;
 }
 
 .inline-block {
@@ -77,8 +80,8 @@ h5 {
 
 .section-heading {
     font-family: "Londrina+Solid", sans-serif;
-    font-weight: 300;
-    font-size: 15px;
+    font-weight: 900;
+    font-size: 16px;
 }
 
 .block--divider {
@@ -91,6 +94,11 @@ h5 {
 }
 
 /* ----- Headers/navbar */
+
+.navbar {
+    position: relative;
+    margin: 2px;
+}
 
 .logo {
     background: url(/assets/images/logo.png);
@@ -122,12 +130,8 @@ h5 {
     display: inline-block;
 }
 
-.nav-link{
+.nav-link {
     display: inline-block;
-}
-
-.nav-item-menu {
-    
 }
 
 
@@ -140,6 +144,7 @@ h5 {
     margin: 0;
 }
 
+/* --
 .menucontainer {
     font-size: 0;
 }
@@ -157,13 +162,6 @@ h5 {
     height: 120px;
     text-align: center;
     padding: 0;
-    border-radius: 360px;
-}
-
-.menuitem-home {
-    height: 80px;
-    padding-top: 5px;
-    text-align: center;
     border-radius: 360px;
 }
 
@@ -215,6 +213,8 @@ h5 {
     letter-spacing: 2px;
 }
 
+---*/
+
 /* ----- Section - Home/carousel*/
 
 .container.container-home {
@@ -254,11 +254,6 @@ h5 {
     background-color: #fafafa;
 }
 
-.btn--music {
-    background-color: #2D758C;
-    color: #fafafa;
-
-}
 
 .block--divider--about {
     width: 80%;
@@ -298,6 +293,78 @@ h5 {
     border-radius: 30%;
 }
 
+
+/* ----- Section - Music*/
+
+.music-container {
+    width: auto;
+    height: auto;
+    background-color: #2D758C;
+    margin: 5px 0;
+    padding: 0;
+}
+
+.section-heading-music {
+    font-family: "Spicy Rice", sans-serif;
+    color: #fafafa;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.block--divider--music {
+    width: 80%;
+    height: 7px;
+    position: relative;
+    display: block;
+    background-color: #fafafa;
+    border-radius: 30%;
+}
+
+.album-items {
+    width: 257px;
+    height: 198px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+audio {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.audio-controls {
+    text-align: center;
+}
+
+.album-items--video {
+    width: auto;
+    height: 400px;
+    display: block;
+    margin: 30px auto;
+    border-top: 5px solid;
+    border-bottom: 5px solid;
+    border-color: #ffffff;
+}
+
+.btn {
+    max-width: 150px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.btn--music {
+    background-color: #ffffff;
+    color: #2D758C;
+    font-family: "Spicy Rice", sans-serif;
+    font-size: 20px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
 
 /* ----- Hovers*/
 
@@ -398,32 +465,32 @@ footer {
     .logo {
         min-height: 100px;
         background-position: left;
-        margin: 10px 10px 10px 50px;
+        margin: 7px 7px 7px 50px;
         max-width: 100%;
     }
-    .menuitem {
+    .nav-item {
         height: 100px;
         font-size: 20px;
         margin: 20px 0 20px 0;
     }
-    .menuitem a {
+    .nav-item a {
         height: 100px;
+        border-radius: 360px;
     }
-    .menuitem a i {
+    .nav-item a i {
         padding-top: 18px;
         font-size: 20px;
     }
-    .menuitem-home {
-        display: none;
-    }
+
 }
 
+/*----
 @media(min-width:768px) {
     .img-members {
         min-height: 100px;
-        background-position: left;
-        display: inline;
+        display: inline-block;
         margin: 10px 10px 10px 20px;
         max-width: 100%;
     }
 }
+---*/
