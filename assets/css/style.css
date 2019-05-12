@@ -1,13 +1,14 @@
 @import url('https://fonts.googleapis.com/css?family=Londrina+Solid:100,300,400,900|Spicy+Rice');
 
-/* ----- colours */
+
+/* ----------------------------------------- colours */
 
 .bg-color {
-    background-color: #ffffff;
+    background-color: #fafafa;
 }
 
 .navbar-bg-color {
-    background-color: #ffffff;
+    background-color: #fafafa;
     color: #e46180;
 }
 
@@ -16,27 +17,27 @@
 }
 
 .ui-menu-color-home {
-    background-color: #ffffff;
+    background-color: #fafafa;
     color: #CF4917;
 }
 
 .ui-menu-color-about {
-    background-color: #ffffff;
+    background-color: #fafafa;
     color: #F9AC3D;
 }
 
 .ui-menu-color-music {
-    background-color: #ffffff;
+    background-color: #fafafa;
     color: #2D758C;
 }
 
 .ui-menu-color-contact {
-    background-color: #ffffff;
+    background-color: #fafafa;
     color: #758C33;
 }
 
 
-/* ----- General styles */
+/* ----------------------------------------- General styles */
 
 .main-content {
     padding: 2px;
@@ -69,9 +70,11 @@ h5 {
 }
 
 .general-text {
-    font-family: "Londrina+Solid", sans-serif;
+    font-family: "Londrina Solid", sans-serif;
     font-weight: 300;
-    font-size: 11px;
+    font-size: 16px;
+    text-align: center;
+    letter-spacing: 2px;
 }
 
 .inline-block {
@@ -79,9 +82,10 @@ h5 {
 }
 
 .section-heading {
-    font-family: "Londrina+Solid", sans-serif;
+    font-family: "Londrina Solid", sans-serif;
     font-weight: 900;
-    font-size: 16px;
+    font-size: 20px;
+    letter-spacing: 2px;
 }
 
 .block--divider {
@@ -93,7 +97,7 @@ h5 {
     border-radius: 30%;
 }
 
-/* ----- Headers/navbar */
+/* ----------------------------------------- Headers/navbar */
 
 .navbar {
     position: relative;
@@ -116,7 +120,7 @@ h5 {
 
 .nav-item {
     font-family: "Spicy Rice", sans-serif;
-    font-size: 20px;
+    font-size: 30px;
     text-align: right;
     padding-top: 5px;
     padding-right: 10px;
@@ -126,7 +130,7 @@ h5 {
 .nav-item i {
     padding-top: 5px;
     padding-right: 10px;
-    font-size: 20px;
+    font-size: 30px;
     display: inline-block;
 }
 
@@ -144,78 +148,8 @@ h5 {
     margin: 0;
 }
 
-/* --
-.menucontainer {
-    font-size: 0;
-}
 
-#nav {
-    margin: 0;
-}
-
-#nav li {
-    font-size: 20px;
-}
-
-
-.menuitem {
-    height: 120px;
-    text-align: center;
-    padding: 0;
-    border-radius: 360px;
-}
-
-.menuitem a {
-    width: 100px;
-    text-decoration: none;
-    color: #fafafa;
-    height: 120px;
-}
-
-.menuitem-home a {
-    width: 100px;
-    text-decoration: none;
-    color: #fafafa;
-    height: 80px;
-}
-
-.menuitem a i {
-    padding-top: 22px;
-    display: block;
-    color: #fafafa;
-    font-size: 30px;
-}
-
-.menuitem-home a i {
-    padding-top: 20px;
-    display: block;
-    color: #fafafa;
-    font-size: 28px;
-}
-
-.menuitem span {
-    display: block;
-    width: 100%;
-    padding-top: 5px;
-    text-align: center;
-    text-transform: uppercase;
-    font-size: 25px;
-    letter-spacing: 2px;
-}
-
-.menuitem-home span {
-    display: block;
-    width: 100%;
-    padding-top: 3px;
-    text-align: center;
-    text-transform: uppercase;
-    font-size: 23px;
-    letter-spacing: 2px;
-}
-
----*/
-
-/* ----- Section - Home/carousel*/
+/* ----------------------------------------- Section - Home/carousel*/
 
 .container.container-home {
     margin: 0;
@@ -236,7 +170,7 @@ h5 {
 }
 
 
-/* ----- Section - About us*/
+/* ----------------------------------------- Section - About us*/
 
 .section-heading-about {
     font-family: "Spicy Rice", sans-serif;
@@ -244,6 +178,15 @@ h5 {
     text-align: center;
     margin-top: 5px;
     margin-bottom: 20px;
+    font-size: 30px;
+}
+
+.sub-heading-about { 
+    font-family: "Spicy Rice", sans-serif;
+    font-size: 18px;
+    color: #F9AC3D;
+    text-align: center;
+    margin: 10px auto;
 }
 
 .about-container {
@@ -265,11 +208,14 @@ h5 {
 }
 
 .img-members {
-    width: 257px;
-    height: 198px;
     display: block;
     margin-left: auto;
     margin-right: auto;
+}
+
+.img-band {
+    width: 257px;
+    height: 198px;
     border-top: 10px solid;
     border-bottom: 10px solid;
     border-color: #F9AC3D;
@@ -293,8 +239,7 @@ h5 {
     border-radius: 30%;
 }
 
-
-/* ----- Section - Music*/
+/* ----------------------------------------- Section - Music*/
 
 .music-container {
     width: auto;
@@ -310,6 +255,7 @@ h5 {
     text-align: center;
     margin-top: 10px;
     margin-bottom: 20px;
+    font-size: 30px;
 }
 
 .block--divider--music {
@@ -366,7 +312,68 @@ audio {
     margin-right: auto;
 }
 
-/* ----- Hovers*/
+/* ----------------------------------------- Contact us*/
+
+.section-heading-contact {
+    font-family: "Spicy Rice", sans-serif;
+    color: #758C33;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    font-size: 30px;
+}
+
+.block--divider--contact {
+    width: 80%;
+    height: 7px;
+    position: relative;
+    display: block;
+    background-color: #758C33;
+    border-radius: 30%;
+}
+    
+.sub-heading-contact { 
+    font-family: "Spicy Rice", sans-serif;
+    font-size: 20px;
+    color: #758C33;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.center-form {
+    max-width: 500px;
+    background-color: #fafafa;
+    display: block;
+    font-family: "Londrina Solid";
+    text-align: center;
+    letter-spacing: 2px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 5px;
+    border-color: #758C33;
+}
+
+.contact-container-image {
+    position: relative;
+    display: block;
+    color: #888;
+    margin-bottom: -25px;
+    background: url('/assets/images/cover3.jpg') right center no-repeat #f3f8fc;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+}
+
+.contact-overlay {
+    z-index: 9;
+    position: absolute;
+    display: block;
+    margin: 10px;
+}
+
+/* ----------------------------------------- Hovers*/
 
 .ui-menu-color-about:hover {
     background-color: #CF4917;
@@ -396,7 +403,7 @@ audio {
     transition: ease-in-out;
 }
 
-/* ----- Footer */
+/* ----------------------------------------- Footer */
 
 footer {
     background-color: #CF4917;
@@ -450,14 +457,15 @@ footer {
 }
 
 .footer-text {
-    font-family: "Londrina+Solid", sans-serif;
+    font-family: "Londrina Solid", sans-serif;
     font-weight: 300;
     font-size: 15px;
     text-align: center;
     padding-top: 10px;
+    letter-spacing: 2px;
 }
 
-/* ----- Media Queries 
+/* ----------------------------------------- Media Queries 
 
 1.will want the logo to be on the left of the page on screens bigger than mobile*/
 
