@@ -20,19 +20,53 @@
 <body>
 
     <header>
-        <div class="row no-gutters">
-            <!-- Div for logo. -->
+
+        <nav class="navbar navbar-expand-md navbar-1 navbar-bg-color">
+
+            <!-- Navbar brand -->
+            <a class="navbar col-md-4 col-sm-6 logo" href="index.html"></a>
+
+            <!-- Collapse button -->
+            <button class="navbar-toggler " type="button" data-toggle="collapse" data-target="#navbar-header" aria-controls="navbar-header" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+
+            <!-- Collapsible content -->
+            <div class="collapse navbar-collapse" id="navbar-header">
+
+                <!-- Links -->
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active ui-menu-color-home nav-item-menu">
+                        <i class="fa fa-home" aria-hidden="true"></i><a class="nav-link" href="index.html">Home <span class="sr-only">Home menu</span></a>
+                    </li>
+                    <li class="nav-item ui-menu-color-about nav-item-menu">
+                        <i class="fa fa-guitar" aria-hidden="true"></i><a class="nav-link" href="#aboutsection">About</a>
+                    </li>
+                    <li class="nav-item ui-menu-color-music nav-item-menu">
+                        <i class="fa fa-music" aria-hidden="true"></i><a class="nav-link" href="#musicsection">Music</a>
+                    </li>
+                    <li class="nav-item ui-menu-color-contact nav-item-menu">
+                        <i class="fa fa-comment" aria-hidden="true"></i><a class="nav-link" href="#contactsection">Contact</a>
+                    </li>
+                </ul>
+                <!-- Links -->
+
+            </div>
+            <!-- Collapsible content -->
+
+        </nav>
+        <!--/.Navbar-->
+
+        <!-- header
+            
             <a href="index.html" class="col-md-4 logo"></a>
 
-            <!-- Div for nav/menu. -->
+          
             <div class="col">
                 <div class="row no-gutters">
                     <div class="col menu">
                         <ul id="nav" class="list-inline menucontainer">
 
-                            <li class="col col-sm-3 ui-menu-color-home list-inline-item menuitem-home">
+                            <li class="col-sm-3 ui-menu-color-home list-inline-item menuitem-home">
                                 <i class="fa fa-home" aria-hidden="true"></i><a href="index.html"><span>Home</span></a></li>
-
                             <li class="col-6 col-sm-3 ui-menu-color-about list-inline-item menuitem">
                                 <a href="#"><i class="fa fa-guitar" aria-hidden="true"></i><span>About</span></a></li>
                             <li class="col-6 col-sm-3 ui-menu-color-music list-inline-item menuitem">
@@ -48,37 +82,40 @@
 
             </div>
         </div>
+        
+        --->
+
 
     </header>
 
 
-    <section>
+    <section class="main-content">
 
         <!--- Image for home / carousel-->
-        <div class="container container-home">
+        <div class="container-home">
             <div class="row">
-                <div class="col-sm-12">
+                <div class="col-12">
                     <div id="my-carousel" class="carousel slide" data-ride="carousel">
-                        
+
                         <!-- indicators-->
                         <ol class="carousel-indicators">
                             <li data-target="#my-carousel" data-slide-to="0" class="active"></li>
                             <li data-target="#my-carousel" data-slide-to="1"></li>
                             <li data-target="#my-carousel" data-slide-to="2"></li>
                         </ol>
-                        
+
                         <!-- wrapper for slides -->
                         <div class="carousel-inner" role="listbox">
                             <div class="carousel-item active">
-                                <img src="/assets/images/monkees.jpg" alt="Monkees-band" class="d-block w-100" width="600" height="400"></img>
+                                <img src="/assets/images/monkees.jpg" alt="Monkees-band" class="d-block w-100" width="100%" height="500"></img>
                             </div>
                             <div class="carousel-item">
-                                <img src="/assets/images/monkees3.jpg" alt="Monkees-band" class="d-block w-100" width="600" height="400"></img>
+                                <img src="/assets/images/monkees3.jpg" alt="Monkees-band" class="d-block w-100" width="100%" height="500"></img>
                             </div>
                             <div class="carousel-item">
-                                <img src="/assets/images/monkees4.jpg" alt="Monkees-band" class="d-block w-100" width="600" height="400"></img>
+                                <img src="/assets/images/monkees4.jpg" alt="Monkees-band" class="d-block w-100" width="100%" height="500"></img>
                             </div>
-                            
+
                             <!-- controls for slides -->
                             <a class="carousel-control-prev" href="#my-carousel" role="button" data-slide="prev">
                                 <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -93,33 +130,48 @@
         </div>
 
         <!--- ABOUT US -->
-
-
         <div class="about-container">
-            <section class="about">
+            <section class="about" id="aboutsection">
                 <div class="row">
                     <div class="col-12 page-header">
-                        <h2 class="section-heading-about uppercase">About us:</h2>
+                        <h2 class="section-heading-about uppercase">About us</h2>
                         <hr class="block--divider--about">
                     </div>
                 </div>
                 <div class="row">
                     <div class="col-12 col-md-6">
                         <div class="about">
-                            <h3 class="section-heading-about uppercase">Feature 1</h3>
-                            <p class="general-text">The Monkees are an American rock and pop band. We joined together in the 60s and have had numerous albums and tours in the years that have followed. We were formed in 1965 in Los Angeles, California, first for the original
-                                TV show The Monkees.</p>
-                            <p class="general-text"><a class="btn btn-sm btn--about" href="#">Read More</a></p>
+                            <h3 class="section-heading-about uppercase">Who we are</h3>
+                            <p class="general-text">We are an American rock and pop band. After joining together in the 60s and have had numerous albums and tours in the years that have followed. We were formed in 1965 in Los Angeles, California, first for the original TV show
+                                The Monkees.</p>
                         </div>
                     </div>
                     <div class="col-12 col-md-6">
                         <div class="about">
-                            <h3 class="section-heading-about uppercase">Feature 2</h3>
+                            <h3 class="section-heading-about uppercase">The band</h3>
                             <p class="general-text">Micky Dolenz (pic) Michael Nesmith (pic) Peter Tork (pic) Davy Jones (pic). As a group we have toured several times across the USA and internationally. We’ve sold more than 75 million records worldwide, which has made us one
                                 of the biggest selling groups of all time with our top-selling hits: - Last Train to Clarksville (link) - Pleasant Valley Sunday (link) - Daydream believer (link) - I’m a believer (link). Although two of our band members
                                 have passed away (Jones in 2012 and Tork in 2019), we (Dolenz and Nesmith) remain active members and continue to perform.
                             </p>
-                            <p class="general-text"><a class="btn btn-sm btn--about" href="#">Read More</a></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-6 col-md-12">
+                        <div class="about">
+                            <h3 class="section-heading-about uppercase">Members</h3>
+                            <p class="section-heading-about uppercase"> Micky Dolenz </p>
+                            <img src="/assets/images/md.jpg" alt="Micky Dolenz" class="rounded img-members"></img>
+
+                            <p class="section-heading-about uppercase"> Michael Nesmith </p>
+                            <img src="/assets/images/mn.jpg" alt="Michael Nesmith" class="rounded img-members"></img>
+
+                            <p class="section-heading-about uppercase"> Peter Tork </p>
+                            <img src="/assets/images/pt.jpg" alt="Peter Tork" class="rounded img-members"></img>
+
+                            <p class="section-heading-about uppercase"> Davy Jones</p>
+                            <img src="/assets/images/dj.jpg" alt="Davy Jones" class="rounded img-members"></img>
+
                         </div>
                     </div>
                 </div>
@@ -127,15 +179,72 @@
         </div>
         <!--- MUSIC -->
 
+        <div class="music-container">
+            <section class="music" id="musicsection">
+                <div class="row">
+                    <div class="col-12 page-header">
+                        <h2 class="section-heading-music uppercase">Music</h2>
+                        <hr class="block--divider--music">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12 col-md-6">
+                        <div class="music">
+                            <h3 class="section-heading-music uppercase">XXX</h3>
+                            <img src="/assets/images/album.jpg" alt="Greatest Hits" class="rounded"></img>
+                            <p class="section-heading-about uppercase"></p>
+                        </div>
+                    </div>
 
+                    <div class="col-12 col-md-6">
+                        <div class="music">
+                            <h3 class="section-heading-music uppercase">XXX</h3>
+                            <img src="/assets/images/album2.jpg" alt="The-Very-Best-of-the-Monkees" class="rounded"></img>
+                            <p class="general-text"></p>
+                        </div>
+                    </div>
 
+                    <div class="col-12 col-md-6">
+                        <div class="music">
+                            <h3 class="section-heading-music uppercase">XXX</h3>
+                            <img src="/assets/images/cover.jpg" alt="Greatest Hits 2" class="rounded"></img>
+                            <p class="general-text"></p>
+                        </div>
+                    </div>
+                    <h3 class="uppercase"><a class="btn btn-sm btn--music" href="music.html">Load more</a></h3>
+                </div>
+            </section>
+        </div>
 
-        <!--- PHOTOS -->
 
 
         <!--- CONTACT -->
 
-
+        <div class="contact-container">
+            <section class="container-fluid">
+                <div class="row bg-color-contact" id="contactsection">
+                    <div class="col">
+                        <h3 class="contact-heading uppercase text-center">Contact us</h3>
+                        <h5 class="uppercase text-center">Interested in hiring us for your events?</h5>
+                        <h5>We're keen to hear from you!</h5>
+                        <p class="general-text"> The Monkees now come to you. Whether you're looking for entertainment for a wedding, a birthday party or even a work-do, we can provide a set list tailored to suit you. Get in touch! We'd love to hear from you.</p>
+                        <div class="center-form">
+                            <form>
+                                <input type="text" name="name" id="fullname" class="form-control" placeholder="Name" required />
+                                <input type="email" name="email" id="emailaddress" class="form-control" placeholder="Email" required />
+                                <input type="text" name="event" id="eventtype" class="form-control" placeholder="Subject" />
+                                <textarea rows="5" name="eventsummary" id="eventsummary" class="form-control" placeholder="Event description" required></textarea>
+                                <div class="front-row text-center">
+                                    <div class="col">
+                                        <button type="submit" class="btn btn-secondary"> Send </button>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
 
 
 
@@ -147,7 +256,7 @@
         <div id="footer-details" class="row">
             <div class="col">
                 <h3>
-                    <a class="uppercase general-sub footer-heading subscribe" href="#">Subscribe</a>
+                    <a class="uppercase general-sub footer-heading subscribe" href="contact.html">Subscribe</a>
                 </h3>
                 <p class="footer-text">Join our mailing list to be one of the first to hear about our events, new merchandise and promotional offers!</p>
                 <hr class="block--divider">

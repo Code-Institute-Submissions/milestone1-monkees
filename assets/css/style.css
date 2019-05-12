@@ -3,7 +3,11 @@
 /* ----- colours */
 
 .bg-color {
-    background-color: #fafafa;
+    background-color: #ffffff;
+}
+
+.navbar-bg-color {
+    background-color: #ffffff;
 }
 
 .bg-color-section {
@@ -11,31 +15,31 @@
 }
 
 .ui-menu-color-home {
-    background-color: #CF4917;
-    color: #fafafa;
+    background-color: #ffffff;
+    color: #CF4917;
 }
 
 .ui-menu-color-about {
-    background-color: #D0B285;
-    color: #fafafa;
+    background-color: #ffffff;
+    color: #F9AC3D;
 }
 
 .ui-menu-color-music {
-    background-color: #2D758C;
-    color: #fafafa;
-}
-
-.ui-menu-color-photos {
-    background-color: #758C33;
-    color: #fafafa;
+    background-color: #ffffff;
+    color: #2D758C;
 }
 
 .ui-menu-color-contact {
-    background-color: #F9AC3D;
-    color: #fafafa;
+    background-color: #ffffff;
+    color: #758C33;
 }
 
+
 /* ----- General styles */
+
+.main-content {
+    padding: 2px;
+}
 
 header {
     margin: 0;
@@ -77,15 +81,23 @@ h5 {
     font-size: 15px;
 }
 
+.block--divider {
+    width: 60px;
+    height: 7px;
+    position: relative;
+    display: block;
+    background-color: #fafafa;
+    border-radius: 30%;
+}
 
-/* ----- Headers */
+/* ----- Headers/navbar */
 
 .logo {
     background: url(/assets/images/logo.png);
-    background-position: center;
+    background-position: left;
     background-repeat: no-repeat;
     background-size: contain;
-    min-height: 320px;
+    min-height: 280px;
     margin: 2px;
     position: relative;
     transition: all .5 ease-in-out;
@@ -93,6 +105,31 @@ h5 {
     -moz-transition: all .5 ease-in-out;
     -webkit-transition: all .5 ease-in-out;
 }
+
+.nav-item {
+    font-family: "Spicy Rice", sans-serif;
+    font-size: 20px;
+    text-align: right;
+    padding-top: 5px;
+    padding-right: 10px;
+    text-transform: uppercase;
+}
+
+.nav-item i {
+    padding-top: 5px;
+    padding-right: 10px;
+    font-size: 20px;
+    display: inline-block;
+}
+
+.nav-link{
+    display: inline-block;
+}
+
+.nav-item-menu {
+    
+}
+
 
 .list-inline {
     margin: 0;
@@ -185,6 +222,12 @@ h5 {
     padding: 0;
 }
 
+.carousel {
+    width: 100%;
+    height: auto;
+    display: inline-block;
+}
+
 #my-carousel {
     margin: 2px 0;
     border-top: 10px solid;
@@ -192,12 +235,6 @@ h5 {
     border-color: #CF4917;
 }
 
-.carousel {
-    width: 100%;
-    height: auto;
-    display: inline-block;
-    margin-bottom: 2px;
-}
 
 /* ----- Section - About us*/
 
@@ -205,6 +242,8 @@ h5 {
     font-family: "Spicy Rice", sans-serif;
     color: #F9AC3D;
     text-align: center;
+    margin-top: 5px;
+    margin-bottom: 20px;
 }
 
 .about-container {
@@ -215,13 +254,80 @@ h5 {
     background-color: #fafafa;
 }
 
-.btn--about {
-    background-color: #F9AC3D;
+.btn--music {
+    background-color: #2D758C;
     color: #fafafa;
 
 }
 
+.block--divider--about {
+    width: 80%;
+    height: 7px;
+    position: relative;
+    display: inline-block;
+    background-color: #F9AC3D;
+    border-radius: 30%;
+}
+
+.img-members {
+    width: 257px;
+    height: 198px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-top: 10px solid;
+    border-bottom: 10px solid;
+    border-color: #F9AC3D;
+}
+
+.block--divider--about {
+    width: 80%;
+    height: 7px;
+    position: relative;
+    display: block;
+    background-color: #F9AC3D;
+    border-radius: 30%;
+}
+
+.block--divider--members {
+    width: 30%;
+    height: 7px;
+    position: relative;
+    display: block;
+    background-color: #F9AC3D;
+    border-radius: 30%;
+}
+
+
 /* ----- Hovers*/
+
+.ui-menu-color-about:hover {
+    background-color: #CF4917;
+    color: #fafafa;
+    text-decoration: none;
+    transition: ease-in-out;
+}
+
+.ui-menu-color-about:hover {
+    background-color: #F9AC3D;
+    color: #fafafa;
+    text-decoration: none;
+    transition: ease-in-out;
+}
+
+.ui-menu-color-music:hover {
+    background-color: #2D758C;
+    color: #fafafa;
+    text-decoration: none;
+    transition: ease-in-out;
+}
+
+.ui-menu-color-contact:hover {
+    background-color: #758C33;
+    color: #fafafa;
+    text-decoration: none;
+    transition: ease-in-out;
+}
 
 /* ----- Footer */
 
@@ -249,24 +355,6 @@ footer {
 .general-sub.subscribe:hover {
     color: #F9AC3D;
     text-decoration: none;
-}
-
-.block--divider {
-    width: 60px;
-    height: 7px;
-    position: relative;
-    display: block;
-    background-color: #fafafa;
-    border-radius: 30%;
-}
-
-.block--divider--about {
-    width: 100%;
-    height: 7px;
-    position: relative;
-    display: inline-block;
-    background-color: #F9AC3D;
-    border-radius: 30%;
 }
 
 
@@ -310,7 +398,7 @@ footer {
     .logo {
         min-height: 100px;
         background-position: left;
-        margin: 10px 10px 10px 20px;
+        margin: 10px 10px 10px 50px;
         max-width: 100%;
     }
     .menuitem {
@@ -327,5 +415,15 @@ footer {
     }
     .menuitem-home {
         display: none;
+    }
+}
+
+@media(min-width:768px) {
+    .img-members {
+        min-height: 100px;
+        background-position: left;
+        display: inline;
+        margin: 10px 10px 10px 20px;
+        max-width: 100%;
     }
 }
