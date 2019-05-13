@@ -7,31 +7,24 @@
     background-color: #fafafa;
 }
 
-.navbar-bg-color {
-    background-color: #fafafa;
-    color: #e46180;
-}
+/*-------------------------------------------------------icon colors*/
 
-.bg-color-section {
-    background-color: #D0B285;
-}
-
-.ui-menu-color-home {
+.ui-nav-color-home {
     background-color: #fafafa;
     color: #CF4917;
 }
 
-.ui-menu-color-about {
+.ui-nav-color-about {
     background-color: #fafafa;
     color: #F9AC3D;
 }
 
-.ui-menu-color-music {
+.ui-nav-color-music {
     background-color: #fafafa;
     color: #2D758C;
 }
 
-.ui-menu-color-contact {
+.ui-nav-color-contact {
     background-color: #fafafa;
     color: #758C33;
 }
@@ -101,9 +94,33 @@ h5 {
 /* ----------------------------------------- Headers/navbar */
 
 .navbar {
-    position: relative;
-    margin: 2px;
+    margin-bottom: 2px;
+    width: 100%;
+    border: 0;
 }
+
+.navbar-toggler {
+    background-color: #CF4917;
+    border-radius: 360px;
+}
+
+.navbar-toggler.toggler-nav {
+    cursor: pointer;
+}
+
+.fas.fa-bars {
+    color: #fafafa;
+}
+
+.btn--color-red {
+    background-color: #CF4917;
+    color: #e48610;
+}
+
+.navbar-custom {
+    background-color: #fafafa;
+}
+
 
 .logo {
     background: url(/assets/images/logo.png);
@@ -122,8 +139,8 @@ h5 {
 .nav-item {
     font-family: "Spicy Rice", sans-serif;
     font-size: 30px;
-    text-align: right;
-    padding-top: 5px;
+    text-align: center;
+    padding-top: 10px;
     padding-right: 10px;
     text-transform: uppercase;
 }
@@ -137,9 +154,27 @@ h5 {
 
 .nav-link {
     display: inline-block;
+    text-decoration: none;
 }
 
 
+a.nav-color-home {
+    color: #CF4917;
+}
+
+a.nav-color-about {
+    color: #F9AC3D;
+}
+
+a.nav-color-music {
+    color: #2D758C;
+}
+
+a.nav-color-contact {
+    color: #758C33;
+}
+
+/*------
 .list-inline {
     margin: 0;
     padding: 0;
@@ -149,6 +184,7 @@ h5 {
     margin: 0;
 }
 
+----*/
 
 /* ----------------------------------------- Section - Home/carousel*/
 
@@ -383,41 +419,55 @@ audio {
     border-color: #758C33
 }
 
-.contact-overlay {
-    z-index: 9;
-    position: absolute;
-    display: block;
-    margin: 10px;
-}
 
 /* ----------------------------------------- Hovers*/
 
-.ui-menu-color-about:hover {
+.ui-nav-color-home:hover {
+    color: #fafafa;
     background-color: #CF4917;
-    color: #fafafa;
+    text-align: center;
     text-decoration: none;
     transition: ease-in-out;
 }
 
-.ui-menu-color-about:hover {
+.ui-nav-color-about:hover {
+    color: #fafafa;
     background-color: #F9AC3D;
-    color: #fafafa;
+    text-align: center;
     text-decoration: none;
     transition: ease-in-out;
 }
 
-.ui-menu-color-music:hover {
+.ui-nav-color-music:hover {
+    color: #fafafa;
     background-color: #2D758C;
-    color: #fafafa;
+    text-align: center;
     text-decoration: none;
     transition: ease-in-out;
 }
 
-.ui-menu-color-contact:hover {
-    background-color: #758C33;
+.ui-nav-color-contact:hover {
     color: #fafafa;
+    background-color: #758C33;
+    text-align: center;
     text-decoration: none;
     transition: ease-in-out;
+}
+
+a.nav-color-home:hover {
+    color: #fafafa;
+}
+
+a.nav-color-about:hover {
+    color: #fafafa;
+}
+
+a.nav-color-music:hover {
+    color: #fafafa;
+}
+
+a.nav-color-contact:hover {
+    color: #fafafa;
 }
 
 /* ----------------------------------------- Footer */
@@ -496,17 +546,56 @@ footer {
     .nav-item {
         height: 100px;
         font-size: 20px;
-        margin: 20px 0 20px 0;
+        margin: 20px;
+        padding-right: 0;
     }
     .nav-item a {
-        height: 100px;
+        height: 75px;
         border-radius: 360px;
     }
     .nav-item a i {
         padding-top: 18px;
         font-size: 20px;
+        display: block;
     }
+    .nav-item i {
+        display: block;
+        padding: 15px 15px 0 15px;
+    }
+    .ui-nav-color-home:hover {
+        border-radius: 5%;
+    }
+    .ui-nav-color-about:hover {
+        border-radius: 5%;
+    }
+    .ui-nav-color-music:hover {
+        border-radius: 5%;
+    }
+    .ui-nav-color-contact:hover {
+        border-radius: 5%;
+    }
+}
 
+/*-------
+.nav-item {
+    font-family: "Spicy Rice", sans-serif;
+    font-size: 30px;
+    text-align: center;
+    padding-top: 10px;
+    padding-right: 10px;
+    text-transform: uppercase;
+}
+
+.nav-item i {
+    padding-top: 5px;
+    padding-right: 10px;
+    font-size: 30px;
+    display: inline-block;
+}
+
+.nav-link {
+    display: inline-block;
+    text-decoration: none;
 }
 
 /*----
