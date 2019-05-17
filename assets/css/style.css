@@ -288,8 +288,8 @@ a.nav-color-contact {
 }
 
 .img-band {
-    width: 257px;
-    height: 198px;
+    width: 100%;
+    height: auto;
     border-top: 10px solid;
     border-bottom: 10px solid;
     border-color: #F9AC3D;
@@ -346,8 +346,8 @@ a.nav-color-contact {
 }
 
 .album-items {
-    width: 257px;
-    height: 198px;
+    width: 100%;
+    height: auto;
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -355,6 +355,7 @@ a.nav-color-contact {
 
 audio {
     display: block;
+    width: 100%;
     margin-left: auto;
     margin-right: auto;
 }
@@ -364,7 +365,7 @@ audio {
 }
 
 .album-items--video {
-    width: auto;
+    width: 100%;
     height: 400px;
     display: block;
     margin: 30px auto;
