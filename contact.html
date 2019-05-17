@@ -18,7 +18,7 @@
 </head>
 
 <body>
-    
+
     <header>
 
         <nav class="navbar navbar-expand-md navbar-custom">
@@ -39,13 +39,13 @@
                         <i class="fa fa-home" aria-hidden="true"></i><a class="nav-link nav-color-home" href="index.html">Home <span class="sr-only">Home menu</span></a>
                     </li>
                     <li class="nav-item ui-nav-color-about">
-                        <i class="fa fa-guitar" aria-hidden="true"></i><a class="nav-link nav-color-about" href="#aboutsection">About</a>
+                        <i class="fa fa-guitar" aria-hidden="true"></i><a class="nav-link nav-color-about" href="index.html#aboutsection">About</a>
                     </li>
                     <li class="nav-item ui-nav-color-music">
-                        <i class="fa fa-music" aria-hidden="true"></i><a class="nav-link nav-color-music" href="#musicsection">Music</a>
+                        <i class="fa fa-music" aria-hidden="true"></i><a class="nav-link nav-color-music" href="music.html">Music</a>
                     </li>
                     <li class="nav-item ui-nav-color-contact">
-                        <i class="fa fa-comment" aria-hidden="true"></i><a class="nav-link nav-color-contact" href="#contactsection">Contact</a>
+                        <i class="fa fa-comment" aria-hidden="true"></i><a class="nav-link nav-color-contact" href="contact.html">Contact</a>
                     </li>
                 </ul>
                 <!-- Links -->
@@ -56,21 +56,22 @@
         </nav>
         <!--/.Navbar-->
     </header>
-    
-    
-    
-    
+
+
+
+
     <div class="contact-container contact-container-image">
         <section class="container-fluid">
-            <div class="row bg-color-contact" id="contactsection">
-                <div class="col contact-overlay">
-                    <h3 class="section-heading-contact uppercase text-center">Contact us</h3>
+            <div class="contact-overlay">&nbsp;</div>
+            <div class="row" id="contactsection">
+                <div class="col">
+                    <h3 class="section-heading-contact-page uppercase text-center">Contact us</h3>
                     <hr class="block--divider--contact">
-                    <h5 class="uppercase text-center sub-heading-contact">Interested in hiring us for your events?</h5>
-                    <h4 class="uppercase sub-heading-contact">We're keen to hear from you!</h4>
-                    <p class="general-text"> The Monkees now come to you.</p>
-                    <p class="general-text"> Whether you're looking for entertainment for a wedding, a birthday party or even a work-do, we can provide a set list tailored to suit you.</p>
-                    <h5 class="uppercase sub-heading-contact"> Get in touch!</h5>
+                    <h5 class="uppercase text-center sub-heading-contact-page">Interested in hiring us for your events?</h5>
+                    <h4 class="uppercase sub-heading-contact-page">We're keen to hear from you!</h4>
+                    <p class="text-contact-page"> The Monkees now come to you.</p>
+                    <p class="text-contact-page"> Whether you're looking for entertainment for a wedding, a birthday party or even a work-do, we can provide a set list tailored to suit you.</p>
+                    <h5 class="uppercase sub-heading-contact-page"> Get in touch!</h5>
                     <div class="center-form">
                         <form>
                             <input type="text" name="name" id="fullname" class="form-control" placeholder="Name" required />
@@ -112,6 +113,28 @@
 
 
     </footer>
+
+    <button onclick="topFunction()" id="myBtn" title="Go to top"><i class="fas fa-chevron-up" aria-hidden="true"></i></button>
+
+    <script>
+        // When the user scrolls down 20px from the top of the document, show the button
+        window.onscroll = function() { scrollFunction() };
+
+        function scrollFunction() {
+            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                document.getElementById("myBtn").style.display = "block";
+            }
+            else {
+                document.getElementById("myBtn").style.display = "none";
+            }
+        }
+
+        // When the user clicks on the button, scroll to the top of the document
+        function topFunction() {
+            document.body.scrollTop = 0;
+            document.documentElement.scrollTop = 0;
+        }
+    </script>
 
 </body>
 
