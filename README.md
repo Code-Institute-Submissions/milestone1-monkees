@@ -142,6 +142,8 @@ The site will refresh then you will be able to view it after 5-10 minutes.
     ** Carousel - [Image 2](https://www.post-gazette.com/ae/music/2019/02/21/Peter-Tork-offbeat-bassist-singer-the-Monkees-dies-77-music-television/stories/201902210124)
     ** Micky Dolenz - [Image 3](http://www.fanpop.com/clubs/micky-dolenz/images/31390175/title/micky-dolenz-photo)
     ** Contact page background - [Image 4](https://www.google.com/search?hl=en-GB&q=monkees&tbm=isch&tbs=simg:CAQSlwEJyK_1mQe1Era4aiwELEKjU2AQaBAg9CEIMCxCwjKcIGmIKYAgDEiiwG7gfyx-dG7kbtR_1ZH8gfrBvBH9Av0S-zL6kluC_1NL8YvoyXdL8kvGjCwluZnNKUI0PqPQcJi_1y8AaVTHpyu7cAfH-ezXJ6Nkv-hBwN6TUR4phelmmEBwslsgBAwLEI6u_1ggaCgoICAESBMG4F8gM&sa=X&ved=0ahUKEwi-xbuqvqjiAhU4WRUIHe1hAucQwg4IKygA&biw=1366&bih=608#imgrc=yxEoRp-Qbe8QKM:)
+* For the songs/video I used [The Monkees, Youtube](https://www.youtube.com/channel/UCv1oY0OLtsEySHeP1TkYNqA)
+
 
 3. Acknowledgements
 
@@ -155,8 +157,4 @@ Inspiration for the style of the site -
 Help with coding and styling the site - 
 * [W3Schools](https://www.w3schools.com/)
 * [Scrolling to top](https://www.w3schools.com/howto/howto_js_scroll_to_top.asp)
-
-
-
-
 
