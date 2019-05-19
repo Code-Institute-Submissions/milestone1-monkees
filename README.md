@@ -3,7 +3,7 @@
 ## A front-end website designed for current and new fans of the band The Monkees. 
 In this website you can access music by the band, watch their music videos, find out more about the band's history and also contact them to enquire about them performing at your own events, such as weddings, birthdays and even work parties.
 
-_(https://vicky185.github.io/milestone1-monkees/ "Visit the website here")_
+_[Visit the website here](https://vicky185.github.io/milestone1-monkees/ "Visit the website here")_
 
 
 # UX 
